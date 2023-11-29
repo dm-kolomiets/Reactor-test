@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/public/img//favicon.ico">
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body class="body">
+    <header class="text-center mb-7.5 md:mb-12.5">
+        <a class="inline-block hover:opacity-80 transition-all" href="/">
+            <img class="max-w-logo" src="/public/img/logo.svg" alt="logo">
+        </a>
+    </header>
+
+    <main>
+        <div class="section mb-4 md:mb-5">
+            <div class="banner">
+                <img class="max-w-image mx-auto" src="/public/img/star.svg" alt="star">
+            </div>
+        </div>
+
+        <div class="section mb-4 md:mb-5">
+            <div class="section__title text-center">
+                <h1 class="text-5xl md:text-6.5xl font-extrabold">Увійти</h1>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="max-w-form mx-auto">
+                <a href="" class="btn border-blue__main-0 mb-4 md:mb-5">
+                    <span class="btn__inner flex justify-center items-center gap-1">
+                        <img class="w-6 h-6" src="/public/img/google-icon.svg" alt="star">
+                        <b>Google</b>
+                    </span>
+                </a>
+                <p class="text-center mb-4 md:mb-5">або</p>
+                <form id="Form" method="post" novalidate class="mb-4 md:mb-5">
+                    <label class="input__item mb-4 md:mb-5">
+                        <span class="absolute left-4 top-1/2 transition-all">Ел. пошта</span>
+                        <input id="emailInput" class="input" type="email" required>
+                    </label>
+                    <p class="invalid__text mb-4 md:mb-5">Вкажіть вашу ел. пошту</p>
+                    <label class="input__item">
+                        <span class="absolute left-4 top-1/2 transition-all">Пароль</span>
+                        <input id="passwordInput" class="input" type="password" required>
+                    </label>
+                    <p class="invalid__text">Вкажіть ваш пароль</p>
+                    <a href="" class="link__sm">Не пам'ятаєш пароль?</a>
+                    <button id="submitButton" type="submit" class="btn btn__submit">Увійти</button>
+                </form>
+                <p class="text-center">Ще не з нами? <a href="" class="link">Зареєструватися</a></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- script -->
+    <script defer src="/public/main.js"></script>
+</body>
+</html>
